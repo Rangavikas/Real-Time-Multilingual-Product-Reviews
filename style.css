@@ -1,0 +1,27 @@
+/* Reset default margin and padding */
+body, h1, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center align heading */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Container for reviews */
+#reviews {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Individual review styling */
+#reviews div {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
